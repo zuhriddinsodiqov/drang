@@ -1,0 +1,21 @@
+@media only screen and (max-width:768px) {
+    .navbar .fa-bars{
+        display: block;
+    }
+    .navbar a{
+        display: none;
+    }
+    .navbar img{
+        display: inline;
+    }
+    .banner .item h1{
+        font-size: 1.5rem;
+    }
+    .banner .item p{
+        font-size: 0.8rem;
+    }
+    .explore__content, .journal__content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
